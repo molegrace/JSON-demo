@@ -1,24 +1,46 @@
-fetch('car.json')
+// 1. Fetch our complete JSON array file
+fetch('cars.json')
   .then(response => response.json())
-  .then(car => {
+  .then(carArray => {
     
-    // Inject Car Properties
-    document.getElementById('car-title').innerText = `${car.make} ${car.model}`;
-    document.getElementById('car-color').innerText = car.color;
-    document.getElementById('car-weight').innerText = car.weight;
-    document.getElementById('car-speed').innerText = car.topSpeed;
-    
-    // Inject the main Car Image URL
-    document.getElementById('car-image').src = car.imageUrl;
+    // Find the main container we created in HTML
+    const gridContainer = document.getElementById('grid-container');
 
-    // DIG INTO NESTED OBJECT: Inject Owner text details
-    document.getElementById('owner-name').innerText = car.owner.name;
-    document.getElementById('owner-location').innerText = `${car.owner.city}, Tanzania`;
+    // 2. Loop through every single car object inside the array
+    carArray.forEach(car => {
+        
+        // Create a new div element to hold the car card layout structure
+        const cardElement = document.createElement('div');
+        cardElement.className = 'car-card';
 
-    // NEW: Inject the nested owner avatar photo URL!
-    document.getElementById('owner-avatar').src = car.owner.avatarUrl;
+        // 3. Construct the HTML layout dynamically using template strings
+        cardElement.innerHTML = `
+            <img src="${car.imageUrl}" alt="${car.make}" class="car-img">
+            <div class="car-info">
+                <h2>${car.make} ${car.model}</h2>
+                <div class="specs">
+                    <p><strong>Color:</strong> ${car.color}</p>
+                    <p><strong>Weight:</strong> ${car.weight}</p>
+                    <p><strong>Top Speed:</strong> ${car.topSpeed}</p>
+                </div>
+                <div class="owner-box">
+                    <h3>Registered Owner</h3>
+                    <div class="owner-profile-layout">
+                        <img src="${car.owner.avatarUrl}" alt="Owner" class="owner-avatar-img">
+                        <div class="owner-details">
+                            <p class="owner-name">${car.owner.name}</p>
+                            <p class="owner-location">${car.owner.city}, TZ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `;
+
+        // 4. Inject this new card directly into our grid wrapper
+        gridContainer.appendChild(cardElement);
+    });
 
   })
   .catch(error => {
-    console.error("Error pulling car tracking database:", error);
+    console.error("Error generating car matrix dashboard:", error);
   });

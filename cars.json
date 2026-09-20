@@ -1,0 +1,115 @@
+[
+    {
+      "make": "Tesla",
+      "model": "Model S Plaid",
+      "color": "Deep Red",
+      "weight": "2,162 kg",
+      "topSpeed": "322 km/h",
+      "imageUrl": "tesla.jpg",
+      "owner": {
+        "name": "Alex Kajumulo",
+        "city": "Dar es Salaam",
+        "membership": "Premium",
+        "avatarUrl": "man_pic.jpg"
+      }
+    },
+    {
+      "make": "Toyota",
+      "model": "Land Cruiser 300",
+      "color": "Midnight Black",
+      "weight": "2,630 kg",
+      "topSpeed": "210 km/h",
+      "imageUrl": "https://unsplash.com",
+      "owner": {
+        "name": "Baraka Mchunu",
+        "city": "Arusha",
+        "membership": "VIP",
+        "avatarUrl": "https://unsplash.com"
+      }
+    },
+    {
+      "make": "BMW",
+      "model": "M4 Competition",
+      "color": "Isle of Man Green",
+      "weight": "1,725 kg",
+      "topSpeed": "290 km/h",
+      "imageUrl": "https://unsplash.com",
+      "owner": {
+        "name": "Fiona Lyimo",
+        "city": "Mwanza",
+        "membership": "Standard",
+        "avatarUrl": "https://unsplash.com"
+      }
+    },
+    {
+      "make": "Mercedes-Benz",
+      "model": "G-Class AMG",
+      "color": "Polar White",
+      "weight": "2,485 kg",
+      "topSpeed": "240 km/h",
+      "imageUrl": "https://unsplash.com",
+      "owner": {
+        "name": "David Ndosi",
+        "city": "Dodoma",
+        "membership": "Premium",
+        "avatarUrl": "https://unsplash.com"
+      }
+    },
+    {
+      "make": "Ford",
+      "model": "Mustang Mach-E",
+      "color": "Grabber Blue",
+      "weight": "2,085 kg",
+      "topSpeed": "200 km/h",
+      "imageUrl": "https://unsplash.com",
+      "owner": {
+        "name": "Grace Mwakasege",
+        "city": "Zanzibar",
+        "membership": "Standard",
+        "avatarUrl": "https://unsplash.com"
+      }
+    },
+    {
+      "make": "Audi",
+      "model": "RS e-tron GT",
+      "color": "Tactical Gray",
+      "weight": "2,345 kg",
+      "topSpeed": "250 km/h",
+      "imageUrl": "https://unsplash.com",
+      "owner": {
+        "name": "Hassan Juma",
+        "city": "Dar es Salaam",
+        "membership": "VIP",
+        "avatarUrl": "https://unsplash.com"
+      }
+    },
+    {
+      "make": "Porsche",
+      "model": "911 Turbo S",
+      "color": "Racing Yellow",
+      "weight": "1,640 kg",
+      "topSpeed": "330 km/h",
+      "imageUrl": "https://unsplash.com",
+      "owner": {
+        "name": "Imani Mollel",
+        "city": "Arusha",
+        "membership": "Premium",
+        "avatarUrl": "https://unsplash.com"
+      }
+    },
+    {
+      "make": "Range Rover",
+      "model": "Sport HSE",
+      "color": "Eiger Gray",
+      "weight": "2,310 kg",
+      "topSpeed": "225 km/h",
+      "imageUrl": "https://unsplash.com",
+      "owner": {
+        "name": "Kelvin Shemu",
+        "city": "Tanga",
+        "membership": "Standard",
+        "avatarUrl": "https://unsplash.com"
+      }
+    }
+  ]
+  

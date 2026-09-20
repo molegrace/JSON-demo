@@ -3,43 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JSON Car Dashboard</title>
+    <title>JSON Car Fleet Grid</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="card-container">
-        <div class="car-card">
-            <!-- The image placeholder populated by JSON -->
-            <img id="car-image" src="" alt="Car Image" class="car-img">
-            
-            <div class="car-info">
-                <h2 id="car-title">Loading Vehicle...</h2>
-                
-                <div class="specs">
-                    <p><strong>Color:</strong> <span id="car-color">-</span></p>
-                    <p><strong>Weight:</strong> <span id="car-weight">-</span></p>
-                    <p><strong>Top Speed:</strong> <span id="car-speed">-</span></p>
-                </div>
-                
-                <div class="owner-box">
-                    <h3>Registered Owner</h3>
-                    
-                    <!-- Add this layout row for the owner profile image -->
-                    <div class="owner-profile-layout">
-                        <img id="owner-avatar" src="" alt="Owner Photo" class="owner-avatar-img">
-                        <div class="owner-details">
-                            <p id="owner-name">Loading Owner...</p>
-                            <p id="owner-location">Loading Location...</p>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </div>
+    <!-- This container will hold our dynamic 4x2 grid -->
+    <div id="grid-container" class="grid-container"></div>
 
     <script src="script.js"></script>
 </body>
 </html>
-
