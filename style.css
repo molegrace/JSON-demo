@@ -12,10 +12,32 @@ body {
 /* 🛑 THE 4-COLUMN GRID CONFIGURATION */
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Forces exactly 4 items per row */
-    gap: 30px; /* Space between the cards */
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
     max-width: 1500px;
     width: 100%;
+}
+
+@media (max-width: 1200px) {
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 900px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 20px;
+    }
+    .grid-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
 }
 
 /* Individual Car Cards */
@@ -27,6 +49,11 @@ body {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    transition: transform 0.3s ease;
+}
+
+.car-card:hover {
+    transform: scale(1.05);
 }
 
 .car-img {
