@@ -5,12 +5,12 @@
       "color": "Deep Red",
       "weight": "2,162 kg",
       "topSpeed": "322 km/h",
-      "imageUrl": "tesla.jpg",
+      "imageUrl": "assets/tesla.jpg",
       "owner": {
         "name": "Alex Kajumulo",
         "city": "Dar es Salaam",
         "membership": "Premium",
-        "avatarUrl": "man_pic.jpg"
+        "avatarUrl": "assets/man_pic.jpg"
       }
     },
     {
@@ -19,12 +19,12 @@
       "color": "Midnight Black",
       "weight": "2,630 kg",
       "topSpeed": "210 km/h",
-      "imageUrl": "https://unsplash.com",
+      "imageUrl": "assets/car1.jpg",
       "owner": {
         "name": "Baraka Mchunu",
         "city": "Arusha",
         "membership": "VIP",
-        "avatarUrl": "https://unsplash.com"
+        "avatarUrl": "assets/man1.jpg"
       }
     },
     {
@@ -33,12 +33,12 @@
       "color": "Isle of Man Green",
       "weight": "1,725 kg",
       "topSpeed": "290 km/h",
-      "imageUrl": "https://unsplash.com",
+      "imageUrl": "assets/car2.jpg",
       "owner": {
         "name": "Fiona Lyimo",
         "city": "Mwanza",
         "membership": "Standard",
-        "avatarUrl": "https://unsplash.com"
+        "avatarUrl": "assets/man2.jpg"
       }
     },
     {
@@ -47,12 +47,12 @@
       "color": "Polar White",
       "weight": "2,485 kg",
       "topSpeed": "240 km/h",
-      "imageUrl": "https://unsplash.com",
+      "imageUrl": "assets/car3.jpg",
       "owner": {
         "name": "David Ndosi",
         "city": "Dodoma",
         "membership": "Premium",
-        "avatarUrl": "https://unsplash.com"
+        "avatarUrl": "assets/man3.jpg"
       }
     },
     {
@@ -61,12 +61,12 @@
       "color": "Grabber Blue",
       "weight": "2,085 kg",
       "topSpeed": "200 km/h",
-      "imageUrl": "https://unsplash.com",
+      "imageUrl": "assets/car4.jpg",
       "owner": {
-        "name": "Grace Mwakasege",
+        "name": "john Mwakasege",
         "city": "Zanzibar",
         "membership": "Standard",
-        "avatarUrl": "https://unsplash.com"
+        "avatarUrl": "assets/man4.jpg"
       }
     },
     {
@@ -75,12 +75,12 @@
       "color": "Tactical Gray",
       "weight": "2,345 kg",
       "topSpeed": "250 km/h",
-      "imageUrl": "https://unsplash.com",
+      "imageUrl": "assets/car5.jpg",
       "owner": {
         "name": "Hassan Juma",
         "city": "Dar es Salaam",
         "membership": "VIP",
-        "avatarUrl": "https://unsplash.com"
+        "avatarUrl": "assets/man5.jpg"
       }
     },
     {
@@ -89,12 +89,12 @@
       "color": "Racing Yellow",
       "weight": "1,640 kg",
       "topSpeed": "330 km/h",
-      "imageUrl": "https://unsplash.com",
+      "imageUrl": "assets/car6.jpg",
       "owner": {
         "name": "Imani Mollel",
         "city": "Arusha",
         "membership": "Premium",
-        "avatarUrl": "https://unsplash.com"
+        "avatarUrl": "assets/man6.jpg"
       }
     },
     {
@@ -103,12 +103,12 @@
       "color": "Eiger Gray",
       "weight": "2,310 kg",
       "topSpeed": "225 km/h",
-      "imageUrl": "https://unsplash.com",
+      "imageUrl": "assets/car7.jpg",
       "owner": {
         "name": "Kelvin Shemu",
         "city": "Tanga",
         "membership": "Standard",
-        "avatarUrl": "https://unsplash.com"
+        "avatarUrl": "assets/man7.jpg"
       }
     }
   ]
