@@ -1,7 +1,6 @@
-/* Base styles */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f0f2f5;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #e2e9f8; /* Sleek dark mode background */
     margin: 0;
     display: flex;
     justify-content: center;
@@ -9,49 +8,83 @@ body {
     height: 100vh;
 }
 
-/* Card layout container */
-.profile-card {
-    background-color: #ffffff;
-    border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    padding: 30px;
-    width: 320px;
-    text-align: center;
-    position: relative;
+.car-card {
+    background-color: #262627;
+    color: #f8fafc;
+    border-radius: 8px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    width: 350px;
+    overflow: hidden; /* Cleans up image edges */
+}
+
+.car-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; /* Ensures the image doesn't stretch uglily */
+    border-bottom: 4px solid #3b82f6;
+}
+
+.car-info {
+    padding: 24px;
 }
 
 h2 {
-    color: #333;
-    margin-bottom: 20px;
-    font-size: 24px;
+    margin: 0 0 15px 0;
+    color: #3b82f6;
+    font-size: 26px;
 }
 
-p {
-    margin: 5px 0;
+.specs p {
+    margin: 8px 0;
+    font-size: 15px;
+    color: #cbd5e1;
 }
 
-.email-label, .city-label {
-    font-size: 12px;
-    color: #888;
+.owner-box {
+    margin-top: 20px;
+    background-color: #334155;
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 4px solid #10b981;
+}
+
+.owner-box h3 {
+    margin: 0 0 8px 0;
+    font-size: 14px;
     text-transform: uppercase;
-    font-weight: bold;
-    margin-top: 15px;
+    color: #10b981;
+    letter-spacing: 0.5px;
 }
 
-.email-text, .city-text {
-    font-size: 16px;
-    color: #444;
+#owner-name {
+    font-weight: bold;
+    margin: 0;
 }
 
-/* Status Badge styling */
-.badge {
-    display: inline-block;
-    margin-top: 25px;
-    padding: 6px 16px;
-    border-radius: 20px;
-    font-size: 12px;
-    font-weight: bold;
-    text-transform: uppercase;
-    background-color: #e6f4ea;
-    color: #137333;
+#owner-location {
+    font-size: 13px;
+    color: #94a3b8;
+    margin: 4px 0 0 0;
 }
+
+/* Layout to align avatar image next to details text */
+.owner-profile-layout {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* Turns the square avatar image into a neat modern circle */
+.owner-avatar-img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #10b981;
+}
+
+.owner-details {
+    display: flex;
+    flex-direction: column;
+}
+

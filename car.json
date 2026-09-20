@@ -1,0 +1,15 @@
+{
+    "make": "Tesla",
+    "model": "Model S Plaid",
+    "color": "Deep Red",
+    "weight": "2162 kg",
+    "topSpeed": "322 km/h",
+    "imageUrl": "Tesla.jpg",
+    "owner": {
+      "name": "Alex Kajumulo",
+      "city": "Dar es Salaam",
+      "membership": "Premium",
+      "avatarUrl": "man_pic.jpg"
+    }
+  }
+  
